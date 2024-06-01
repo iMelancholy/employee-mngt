@@ -52,6 +52,14 @@
                             id="dob">
                             @error('dob') <span class="text-danger">{{ $message }}</span> @enderror
                         </div>
+
+                        <div class="col-md-6">
+                            <label>Employee DOB</label>
+                            <input type="date" class="form-control" name="dob" value="{{ $employ->dob }}"
+                            id="dob">
+                            @error('dob') <span class="text-danger">{{ $message }}</span> @enderror
+                        </div>
+                        
                     </div>
 
                     <div class="row">
