@@ -11,56 +11,56 @@
         <h3 align="center" class="mt-5">Employee Management</h3>
 
         <div class="row">
-            <div class="col-md-2">
-            </div>
+            <div class="col-md-2"></div>
             <div class="col-md-8">
 
-            <div class="form-area">
-                <form action="{{ url('employ/create') }}" method="HEAD">
-                    @csrf
-                    <div class="row">
+                <div class="form-area">
+                    <form action="{{ url('employ/create') }}" method="HEAD">
+                        @csrf
+                        <div class="row">
 
-                        <div class="col-md-6">
-                            <label>Employee First Name</label>
-                            <input type="text" name="firstname" class="form-control" value="{{ old('fisrtname') }}" 
-                            id="firstname" placeholder="Enter first name">
-                            @error('firstname') <span class="text-danger">{{ $message }}</span> @enderror
+                            <div class="col-md-6">
+                                <label>Employee First Name</label>
+                                <input type="text" name="firstname" class="form-control" value="{{ old('fisrtname') }}" 
+                                id="firstname" placeholder="Enter first name">
+                                @error('firstname') <span class="text-danger">{{ $message }}</span> @enderror
 
+                            </div>
+
+                            <div class="col-md-6">
+                                <label>Employee Last Name</label>
+                                <input type="text" name="lastname" class="form-control" value="{{ old('lastname') }}" 
+                                id="lastname" placeholder="Enter last name">
+                                @error('lastname') <span class="text-danger">{{ $message }}</span> @enderror
+
+                            </div>
+
+                            <div class="col-md-6">
+                                <label>Phone</label>
+                                <input type="text" name="phone" class="form-control" value="{{ old('phone') }}" 
+                                id="phone" placeholder="">
+                                @error('phone') <span class="text-danger">{{ $message }}</span> @enderror
+
+                            </div>
+
+                            <div class="col-md-6">
+                                <label>Employee DOB</label>
+                                <input type="date" class="form-control" name="dob">
+                            </div>
                         </div>
 
-                        <div class="col-md-6">
-                            <label>Employee Last Name</label>
-                            <input type="text" name="lastname" class="form-control" value="{{ old('lastname') }}" 
-                            id="lastname" placeholder="Enter last name">
-                            @error('lastname') <span class="text-danger">{{ $message }}</span> @enderror
-
+                        <div class="row">
+                            <div class="col-md-12 mt-3">
+                                <input type="submit" class="btn btn-info" value="Register">
+                                <a href="{{ url('home') }}" class="btn btn-secondary">Back</a>
+                            </div>
                         </div>
+                        
+                    </form>
+                </div>
 
-                        <div class="col-md-6">
-                            <label>Phone</label>
-                            <input type="text" name="phone" class="form-control" value="{{ old('phone') }}" 
-                            id="phone" placeholder="">
-                            @error('phone') <span class="text-danger">{{ $message }}</span> @enderror
-
-                        </div>
-
-                        <div class="col-md-6">
-                            <label>Employee DOB</label>
-                            <input type="date" class="form-control" name="dob">
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-12 mt-3">
-                            <input type="submit" class="btn btn-info" value="Register">
-                        </div>
-
-                    </div>
-                </form>
-            </div>
                 <div class="card-body">
 
-                    
                     <table class="table table-bordered table-striped">
                         <thread>
                             <tr>
