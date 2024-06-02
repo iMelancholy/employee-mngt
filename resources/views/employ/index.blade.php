@@ -53,6 +53,7 @@
                             <div class="col-md-12 mt-3">
                                 <input type="submit" class="btn btn-dark" value="Register">
                                 <a href="{{ url('home') }}" class="btn btn-secondary">Back</a>
+                                <a href="{{ url('home') }}" class="btn btn-secondary">Back</a>
                             </div>
                         </div>
                         
