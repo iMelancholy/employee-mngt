@@ -64,7 +64,8 @@
 
                         <div class="row">
                             <div class="col-md-12 mt-3">
-                                <button type="submit" class="btn btn-primary">Update</button>
+                                <button type="submit" class="btn btn-dark">Update</button>
+                                <!-- <a href="{{ url('employ') }}" class="btn btn-secondary">Back</a> -->
                             </div>
                         </div>
                     </form>
