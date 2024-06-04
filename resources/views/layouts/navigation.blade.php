@@ -36,7 +36,7 @@
                     <a href="{{route('employ.index') }}" class="nav-link">
                     <i class="fas fa-link"></i>
                     <p>
-                        {{ __('Employee Management') }}
+                        {{ __('users') }}
                     </p>
                 </a>
             </li>
@@ -45,7 +45,7 @@
                 <a href="#" class="nav-link">
                     <i class="fas fa-link"></i>
                     <p>
-                        System Management
+                        BSIT-3A
                         <i class="fas fa-angle-left right"></i>
                     </p>
                 </a>
