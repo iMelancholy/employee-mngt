@@ -6,7 +6,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Admin control panel</h1>
+            <h1 class="m-0">Admin Control Panel</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -33,7 +33,7 @@
               <div class="icon">
               <i class="ion ion-bag"></i>
               </div>
-              <a href="#" class="small-box-footer">List Users <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="{{ url('employ') }}" class="small-box-footer">List Users <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->

@@ -11,10 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('employ', function (Blueprint $table) {
+        Schema::create('bsit_tbl', function (Blueprint $table) {
             $table->id();
-            $table->string('firstname');
-            $table->string('lastname');
+            $table->integer('number');
+            $table->string('name');
+            $table->string('email');
             $table->integer('phone');
             $table->date('dob');
             $table->timestamps();
@@ -26,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('employ');
+        Schema::dropIfExists('bsit_tbl');
     }
 };

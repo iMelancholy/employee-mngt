@@ -10,5 +10,5 @@ class employ extends Model
     use HasFactory;
     protected $table='employ';
     protected $primarykey='id';
-    protected $fillable= ['firstname', 'lastname',	'phone', 'dob'];
+    protected $fillable= ['ID', 'firstname', 'lastname',	'phone', 'dob'];
 }

@@ -13,9 +13,10 @@ return new class extends Migration
     {
         Schema::create('employ', function (Blueprint $table) {
             $table->id();
+            $table->integer('ID');
             $table->string('firstname');
             $table->string('lastname');
-            $table->int('phone');
+            $table->integer('phone');
             $table->date('dob');
             $table->timestamps();
         });
