@@ -76,7 +76,7 @@
                     </form>
                 </div>
 
-                <div class="card-body">
+                <!-- <div class="card-body">
 
                     <table class="table table-bordered table-striped">
                         <thread>
@@ -109,7 +109,7 @@
                             @endforeach
                         </tbody>
                     </table>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

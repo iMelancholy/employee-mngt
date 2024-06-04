@@ -9,6 +9,8 @@ Route::get('employ/create',  [App\Http\Controllers\employController::class, 'sto
 Route::get('employ/{id}/edit', [App\Http\Controllers\employController::class, 'edit']);
 Route::put('employ/{id}/edit', [App\Http\Controllers\employController::class, 'update']);
 Route::get('employ/{id}/delete', [App\Http\Controllers\employController::class, 'destroy']);
+Route::get('employ/{id}/table', [App\Http\Controllers\employController::class, 'table']);
+
 
 Route::get('/', function () {
     return view('welcome');

@@ -41,29 +41,11 @@
                 </a>
             </li>
 
-            <!-- <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <i class="fas fa-link"></i>
-                    <p>
-                        BSIT-3A
-                        <i class="fas fa-angle-left right"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview" style="display: none;">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="far fa-circle nav-icon"></i>
-                            <p>Child menu</p>
-                        </a>
-                    </li>
-                </ul>
-            </li> -->
-
             <li class="nav-item" style="background:black;">
-                    <a href="{{route('employ.index') }}" class="nav-link">
+                    <a href="{{ url('home') }}" class="nav-link">
                     <i class="fas fa-link"></i>
                     <p>
-                        {{ __('BSIT-3A') }}
+                        {{ __('BSIT3A') }}
                     </p>
                 </a>
             </li>
