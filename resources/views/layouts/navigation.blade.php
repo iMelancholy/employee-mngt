@@ -36,12 +36,12 @@
                     <a href="{{route('employ.index') }}" class="nav-link">
                     <i class="fas fa-link"></i>
                     <p>
-                        {{ __('users') }}
+                        {{ __('Users') }}
                     </p>
                 </a>
             </li>
 
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a href="#" class="nav-link">
                     <i class="fas fa-link"></i>
                     <p>
@@ -57,18 +57,17 @@
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> -->
 
-            <li class="nav-item">
-                <a href="{{ route('about') }}" class="nav-link">
+            <li class="nav-item" style="background:black;">
+                    <a href="{{route('employ.index') }}" class="nav-link">
                     <i class="fas fa-link"></i>
                     <p>
-                        {{ __('User Management') }}
+                        {{ __('BSIT-3A') }}
                     </p>
                 </a>
             </li>
 
-            
         </ul>
     </nav>
     <!-- /.sidebar-menu -->
